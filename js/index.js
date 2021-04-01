@@ -3,8 +3,7 @@
 function updateSubtotal(product) {
   console.log('Calculating subtotal, yey!');
 
-  //... your code goes here
-}
+const waning =document.querySelector('calculate');}
 
 function calculateAll() {
   // code in the following two lines is added just for testing purposes.
@@ -12,7 +11,10 @@ function calculateAll() {
   const singleProduct = document.querySelector('.product');
   updateSubtotal(singleProduct);
   // end of test
-
+  function updateSubtotal(product) {
+    const price = product.querySelector('price span');
+  }
+ //variaveis price e quantity para obter elementos do DOM
   // ITERATION 2
   //... your code goes here
 
@@ -30,8 +32,10 @@ function removeProduct(event) {
 
 // ITERATION 5
 
-function createProduct() {
+function createProduct(event) {
   //... your code goes here
+  const createProduct = event.currentTarget;
+
 }
 
 window.addEventListener('load', () => {
